@@ -1,0 +1,82 @@
+*{
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: #e4e4e4;
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+h2{
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+  font-size: 16p;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-control {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 400px;
+}
+
+.btn{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: green;
+  cursor: pointer;
+  color: #fff;
+}
+.recipes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card{
+  width: 200px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.card-image{
+  width: 100%;
+}
+
+.card-body{
+padding: 10px;
+text-align: center;
+}
+
+.category{
+  color: #ffba5a;
+}
+
+a{
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
